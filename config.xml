@@ -504,7 +504,7 @@ luZwE=&#xD;
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-clamav,os-etpro-telemetry,os-git-backup,os-intrusion-detection-content-et-open,os-iperf,os-smart,os-theme-vicuna,os-udpbroadcastrelay,os-vnstat</plugins>
+      <plugins>os-acme-client,os-clamav,os-etpro-telemetry,os-git-backup,os-intrusion-detection-content-et-open,os-iperf,os-nginx,os-smart,os-theme-vicuna,os-udpbroadcastrelay,os-vnstat</plugins>
       <type/>
       <subscription/>
     </firmware>
@@ -4156,8 +4156,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1725100195.1141</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1725100198.0237</time>
   </revision>
   <OPNsense>
     <Firewall>
