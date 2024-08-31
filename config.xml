@@ -4162,9 +4162,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.1.27</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1721677341.4624</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1725100095.296</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5083,6 +5083,29 @@ VN</content>
         <NoLogon>disable</NoLogon>
       </general>
     </apcupsd>
+    <Nginx version="1.33">
+      <general>
+        <enabled>0</enabled>
+        <ban_ttl>0</ban_ttl>
+      </general>
+      <webgui>
+        <limitnetworks>0</limitnetworks>
+      </webgui>
+      <http>
+        <workerprocesses>1</workerprocesses>
+        <workerconnections>1024</workerconnections>
+        <sendfile>0</sendfile>
+        <keepalive_timeout>60</keepalive_timeout>
+        <reset_timedout>0</reset_timedout>
+        <default_type/>
+        <server_names_hash_bucket_size/>
+        <server_names_hash_max_size/>
+        <ban_response>403</ban_response>
+        <log_perm_ban>0</log_perm_ban>
+        <bots_ua>Python-urllib,Nmap,python-requests,libwww-perl,MJ12bot,Jorgee,fasthttp,libwww,Telesphoreo,A6-Indexer,ltx71,okhttp,ZmEu,sqlmap,LMAO/2.0,l9explore,l9tcpid,Masscan,zgrab,Ronin/2.0,Hakai/2.0,Indy\sLibrary,^Mozilla/[\d\.]+$,Morfeus\sFucking\sScanner,MSIE\s[0-6]\.\d+</bots_ua>
+        <headers_more_enable/>
+      </http>
+    </Nginx>
   </OPNsense>
   <ca>
     <refid>60228c112b2c9</refid>
