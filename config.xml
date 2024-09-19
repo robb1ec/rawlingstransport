@@ -1517,6 +1517,19 @@ luZwE=&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>3c:1b:f8:81:33:45</mac>
+        <cid>Speaker1</cid>
+        <ipaddr>192.168.50.139</ipaddr>
+        <hostname>speaker1</hostname>
+        <descr>HIK Loud Horn 1</descr>
+        <gateway>192.168.50.1</gateway>
+        <domain>corp.rawlingstransport.co.uk</domain>
+        <winsserver/>
+        <dnsserver>192.168.1.2</dnsserver>
+        <dnsserver>192.168.1.5</dnsserver>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>f4:e2:c6:9c:da:d6</mac>
         <cid>CCTVNANOBEAM1</cid>
         <ipaddr>192.168.50.140</ipaddr>
@@ -4155,9 +4168,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1725100198.0237</time>
+    <username>root@192.168.50.159</username>
+    <time>1726736755.968</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
