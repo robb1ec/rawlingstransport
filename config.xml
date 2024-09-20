@@ -1595,7 +1595,6 @@ luZwE=&#xD;
         <dnsserver>192.168.1.6</dnsserver>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </opt5>
     <opt3>
       <enable>1</enable>
@@ -4200,8 +4199,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1726821348.3572</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1726821352.6329</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
