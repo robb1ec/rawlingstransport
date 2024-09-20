@@ -1519,7 +1519,7 @@ luZwE=&#xD;
       <staticmap>
         <mac>80:be:af:e5:b6:5e</mac>
         <ipaddr>192.168.50.133</ipaddr>
-        <hostname>Camera33</hostname>
+        <hostname>camera33</hostname>
         <descr>Camera 33 along PTrack sides</descr>
         <gateway>192.168.50.1</gateway>
         <domain>corp.rawlingstransport.co.uk</domain>
@@ -4181,7 +4181,7 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1726820839.3213</time>
+    <time>1726820890.2534</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
