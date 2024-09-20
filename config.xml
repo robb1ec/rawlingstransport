@@ -1536,6 +1536,18 @@ luZwE=&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>80:be:af:e5:b6:66</mac>
+        <ipaddr>192.168.50.134</ipaddr>
+        <hostname>camera34</hostname>
+        <descr>Along side PTrack trailers</descr>
+        <gateway>192.168.50.1</gateway>
+        <domain>corp.rawlingstransport.co.uk</domain>
+        <winsserver/>
+        <dnsserver>192.168.1.2</dnsserver>
+        <dnsserver>192.168.1.5</dnsserver>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>3c:1b:f8:81:33:45</mac>
         <cid>Speaker1</cid>
         <ipaddr>192.168.50.139</ipaddr>
@@ -4188,7 +4200,7 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1726820938.4593</time>
+    <time>1726821348.3572</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
