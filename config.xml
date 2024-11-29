@@ -1308,7 +1308,7 @@ luZwE=&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>44:47:cc:8c:ee:8c</mac>
+        <mac>80:be:af:e5:b6:39</mac>
         <ipaddr>192.168.50.114</ipaddr>
         <hostname>camera14</hostname>
         <descr>camera14</descr>
@@ -4192,8 +4192,8 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.50.199</username>
-    <time>1732549484.5668</time>
+    <username>root@192.168.50.159</username>
+    <time>1732877993.0058</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
