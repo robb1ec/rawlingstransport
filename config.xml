@@ -879,7 +879,7 @@ luZwE=&#xD;
         <item/>
       </numberoptions>
       <range>
-        <from>192.168.40.101</from>
+        <from>192.168.40.50</from>
         <to>192.168.40.254</to>
       </range>
       <winsserver/>
@@ -4193,8 +4193,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1732877993.0058</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1734361356.5567</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
