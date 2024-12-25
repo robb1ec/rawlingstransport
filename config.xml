@@ -4193,8 +4193,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>(root)</username>
-    <time>1735088329.1369</time>
-    <description>Leave CARP maintenance mode</description>
+    <time>1735088334.0324</time>
+    <description>Enter CARP maintenance mode</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5765,4 +5765,5 @@ VN</content>
   <wireless>
     <clone/>
   </wireless>
+  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
