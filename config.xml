@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set_subnet/3563f66e-bc0a-4e9d-9a85-120f11a7318b made changes</description>
-    <time>1735921114.4199</time>
+    <description>/api/kea/dhcpv4/set_subnet/3eb248e3-7b43-4737-8a2c-6bc60a446270 made changes</description>
+    <time>1735921143.2841</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5477,9 +5477,9 @@ VN</content>
           <subnet4 uuid="3eb248e3-7b43-4737-8a2c-6bc60a446270">
             <subnet>192.168.30.0/24</subnet>
             <next_server/>
-            <option_data_autocollect>1</option_data_autocollect>
+            <option_data_autocollect>0</option_data_autocollect>
             <option_data>
-              <domain_name_servers>192.168.30.254</domain_name_servers>
+              <domain_name_servers>192.168.1.2,192.168.1.6</domain_name_servers>
               <domain_search>rawlings.local</domain_search>
               <routers>192.168.30.254</routers>
               <static_routes/>
