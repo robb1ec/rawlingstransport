@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1735916082.424</time>
+    <description>/api/kea/dhcpv4/add_subnet/ made changes</description>
+    <time>1735917550.4372</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5455,7 +5455,26 @@ VN</content>
           <this_server_name/>
           <max_unacked_clients>2</max_unacked_clients>
         </ha>
-        <subnets/>
+        <subnets>
+          <subnet4 uuid="3563f66e-bc0a-4e9d-9a85-120f11a7318b">
+            <subnet>192.168.1.0/24</subnet>
+            <next_server/>
+            <option_data_autocollect>1</option_data_autocollect>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search>rawlings.local</domain_search>
+              <routers/>
+              <static_routes/>
+              <domain_name>corp.rawlingstransport.co.uk</domain_name>
+              <ntp_servers/>
+              <time_servers>192.168.1.2,192.168.1.6</time_servers>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <pools>192.168.1.101-192.168.1.199</pools>
+            <description>VLAN01 Transport LAN</description>
+          </subnet4>
+        </subnets>
         <reservations/>
         <ha_peers/>
       </dhcp4>
