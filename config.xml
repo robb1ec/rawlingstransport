@@ -509,6 +509,8 @@ luZwE=&#xD;
       <subscription/>
     </firmware>
     <gw_switch_default>1</gw_switch_default>
+    <secondaryconsole/>
+    <serialusb/>
   </system>
   <interfaces>
     <wan>
@@ -4232,8 +4234,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1735936557.4216</time>
-    <description>Restored sections (dhcpd,OPNsense.Kea) of config file</description>
+    <time>1735936643.8037</time>
+    <description>/diag_backup.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
