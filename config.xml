@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/del_reservation/2c8b43f2-2b53-4797-92c1-9179ae015bfa made changes</description>
-    <time>1735935963.1745</time>
+    <description>/api/kea/dhcpv4/del_reservation/1ecab786-5f36-422b-8cf8-11b41671731a made changes</description>
+    <time>1735935968.1715</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5566,13 +5566,6 @@ VN</content>
           </subnet4>
         </subnets>
         <reservations>
-          <reservation uuid="1ecab786-5f36-422b-8cf8-11b41671731a">
-            <subnet>3563f66e-bc0a-4e9d-9a85-120f11a7318b</subnet>
-            <ip_address>192.168.1.64</ip_address>
-            <hw_address>00:25:90:11:43:82</hw_address>
-            <hostname>gateway02-hypv02-ipmi</hostname>
-            <description>Gateway Hyper-V 02 (RAW-HYP-02)</description>
-          </reservation>
           <reservation uuid="3631461c-0980-4c1f-988b-bd8b9b47fe73">
             <subnet>3563f66e-bc0a-4e9d-9a85-120f11a7318b</subnet>
             <ip_address>192.168.1.65</ip_address>
