@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/core/hasync/set made changes</description>
-    <time>1735922768.1638</time>
+    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
+    <time>1735923244.6611</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5571,6 +5571,13 @@ VN</content>
             <ip_address>192.168.1.31</ip_address>
             <hw_address>00:25:90:bc:4a:d9</hw_address>
             <hostname>wbridge01</hostname>
+            <description>Ubnt Nano Beam</description>
+          </reservation>
+          <reservation uuid="2c8b43f2-2b53-4797-92c1-9179ae015bfa">
+            <subnet>3563f66e-bc0a-4e9d-9a85-120f11a7318b</subnet>
+            <ip_address>192.168.1.32</ip_address>
+            <hw_address>00:25:90:b8:f8:25</hw_address>
+            <hostname>wbridge02</hostname>
             <description>Ubnt Nano Beam</description>
           </reservation>
         </reservations>
