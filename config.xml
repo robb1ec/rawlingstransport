@@ -4233,7 +4233,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.159</username>
     <description>/api/kea/dhcpv4/add_subnet/ made changes</description>
-    <time>1735918295.1412</time>
+    <time>1735918417.6264</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5563,6 +5563,24 @@ VN</content>
             </option_data>
             <pools>192.168.70.101-192.168.70.199</pools>
             <description>VLAN070 Hartley LAN</description>
+          </subnet4>
+          <subnet4 uuid="849373c7-9dad-47c0-afc1-09e4da3cfd0f">
+            <subnet>192.168.60.0/24</subnet>
+            <next_server/>
+            <option_data_autocollect>1</option_data_autocollect>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <domain_name>wifi.pickfords</domain_name>
+              <ntp_servers/>
+              <time_servers>192.168.1.2,192.168.1.6</time_servers>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <pools>192.168.60.101-192.168.60.199</pools>
+            <description>VLAN60 Pickfords Wireless and LAN</description>
           </subnet4>
         </subnets>
         <reservations/>
