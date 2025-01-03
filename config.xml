@@ -4233,7 +4233,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.159</username>
     <description>/api/kea/dhcpv4/add_subnet/ made changes</description>
-    <time>1735918088.1259</time>
+    <time>1735918149.3943</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5509,6 +5509,24 @@ VN</content>
             </option_data>
             <pools>192.168.40.50-192.168.40.200</pools>
             <description>VLAN40 Wifi</description>
+          </subnet4>
+          <subnet4 uuid="aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f">
+            <subnet>192.168.50.0/24</subnet>
+            <next_server/>
+            <option_data_autocollect>1</option_data_autocollect>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <domain_name>corp.rawlingstransport.com</domain_name>
+              <ntp_servers/>
+              <time_servers>192.168.1.2,192.168.1.6</time_servers>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <pools>192.168.40.150-192.168.50.199</pools>
+            <description>VLAN40 TrustIT Lan</description>
           </subnet4>
         </subnets>
         <reservations/>
