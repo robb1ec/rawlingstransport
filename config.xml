@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/del_subnet/5fe86b25-1804-4493-b701-2a421262bdd2 made changes</description>
-    <time>1735921213.7538</time>
+    <description>/api/kea/dhcpv4/set_subnet/08683f98-d2ad-4630-be8d-81100fa432df made changes</description>
+    <time>1735921280.4166</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5531,14 +5531,14 @@ VN</content>
           <subnet4 uuid="08683f98-d2ad-4630-be8d-81100fa432df">
             <subnet>192.168.70.0/24</subnet>
             <next_server/>
-            <option_data_autocollect>1</option_data_autocollect>
+            <option_data_autocollect>0</option_data_autocollect>
             <option_data>
-              <domain_name_servers>192.168.70.254</domain_name_servers>
+              <domain_name_servers>192.168.1.2,192.168.1.6</domain_name_servers>
               <domain_search/>
-              <routers>192.168.70.254</routers>
+              <routers>192.168.70.1</routers>
               <static_routes/>
               <domain_name>corp.hartleytankerservices.co.uk</domain_name>
-              <ntp_servers>192.168.70.254</ntp_servers>
+              <ntp_servers>192.168.1.2,192.168.1.6</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
