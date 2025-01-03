@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set_subnet/08683f98-d2ad-4630-be8d-81100fa432df made changes</description>
-    <time>1735921280.4166</time>
+    <description>/api/kea/dhcpv4/set_subnet/849373c7-9dad-47c0-afc1-09e4da3cfd0f made changes</description>
+    <time>1735921335.2412</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5549,14 +5549,14 @@ VN</content>
           <subnet4 uuid="849373c7-9dad-47c0-afc1-09e4da3cfd0f">
             <subnet>192.168.60.0/24</subnet>
             <next_server/>
-            <option_data_autocollect>1</option_data_autocollect>
+            <option_data_autocollect>0</option_data_autocollect>
             <option_data>
-              <domain_name_servers>192.168.60.254</domain_name_servers>
+              <domain_name_servers>1.1.1.1,8.8.8.8</domain_name_servers>
               <domain_search/>
-              <routers>192.168.60.254</routers>
+              <routers>192.168.60.1</routers>
               <static_routes/>
               <domain_name>wifi.pickfords</domain_name>
-              <ntp_servers>192.168.60.254</ntp_servers>
+              <ntp_servers>192.168.1.2,192.168.1.6</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
