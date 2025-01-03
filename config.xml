@@ -4204,9 +4204,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.50.159</username>
-    <time>1735896273.1385</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>(root)</username>
+    <time>1735912799.3926</time>
+    <description>Leave CARP maintenance mode</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5777,5 +5777,4 @@ VN</content>
   <wireless>
     <clone/>
   </wireless>
-  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
