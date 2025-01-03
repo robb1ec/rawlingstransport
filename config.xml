@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1735936434.071</time>
-    <description>Restored sections (dhcpd) of config file</description>
+    <time>1735936557.4216</time>
+    <description>Restored sections (dhcpd,OPNsense.Kea) of config file</description>
   </revision>
   <OPNsense>
     <Firewall>
