@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1735935981.401</time>
+    <time>1735936405.0429</time>
+    <description>Restored sections (OPNsense.Kea) of config file</description>
   </revision>
   <OPNsense>
     <Firewall>
