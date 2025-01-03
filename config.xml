@@ -4233,7 +4233,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.159</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1735923462.9342</time>
+    <time>1735923803.8201</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5593,6 +5593,13 @@ VN</content>
             <hw_address>00:25:90:11:43:ba</hw_address>
             <hostname>gateway01-hypv01-ipmi</hostname>
             <description>Gateway Hyper-V 01 (RAW-HYP-01)</description>
+          </reservation>
+          <reservation uuid="e0d567fc-9728-4425-a25b-0401edb8e66c">
+            <subnet>3563f66e-bc0a-4e9d-9a85-120f11a7318b</subnet>
+            <ip_address>192.168.1.67</ip_address>
+            <hw_address>ac:1f:6b:c1:0b:7a</hw_address>
+            <hostname>fw02-ipmi</hostname>
+            <description>FW02 IPMI</description>
           </reservation>
         </reservations>
         <ha_peers>
