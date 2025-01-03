@@ -887,6 +887,17 @@ luZwE=&#xD;
       <dnsserver>192.168.1.6</dnsserver>
       <ntpserver/>
       <staticmap>
+        <mac>00:10:40:c4:8a:99</mac>
+        <ipaddr>192.168.40.20</ipaddr>
+        <descr>Scanner</descr>
+        <gateway>192.168.40.1</gateway>
+        <domain>corp.rawlingstransport.co.uk</domain>
+        <winsserver/>
+        <dnsserver>192.168.1.2</dnsserver>
+        <dnsserver>192.168.1.6</dnsserver>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>ec:8e:b5:b9:8b:76</mac>
         <cid>printer05</cid>
         <ipaddr>192.168.40.74</ipaddr>
@@ -4192,9 +4203,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1735088334.0324</time>
-    <description>Enter CARP maintenance mode</description>
+    <username>root@192.168.50.159</username>
+    <time>1735896230.299</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
