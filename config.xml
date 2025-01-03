@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set_subnet/a87add99-f640-4267-9f81-08ef204a441f made changes</description>
-    <time>1735921491.044</time>
+    <description>/api/kea/dhcpv4/set_subnet/aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f made changes</description>
+    <time>1735921511.8397</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5517,10 +5517,10 @@ VN</content>
             <option_data>
               <domain_name_servers>192.168.1.2,192.168.1.6</domain_name_servers>
               <domain_search/>
-              <routers>192.168.50.254</routers>
+              <routers>192.168.50.1</routers>
               <static_routes/>
               <domain_name>corp.rawlingstransport.com</domain_name>
-              <ntp_servers>192.168.50.254</ntp_servers>
+              <ntp_servers>192.168.1.2,192.168.1.6</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
