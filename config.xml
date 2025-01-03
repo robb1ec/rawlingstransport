@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/del_reservation/3631461c-0980-4c1f-988b-bd8b9b47fe73 made changes</description>
-    <time>1735935972.8573</time>
+    <description>/api/kea/dhcpv4/del_reservation/e0d567fc-9728-4425-a25b-0401edb8e66c made changes</description>
+    <time>1735935977.3838</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5565,15 +5565,7 @@ VN</content>
             <description>VLAN60 Pickfords Wireless and LAN</description>
           </subnet4>
         </subnets>
-        <reservations>
-          <reservation uuid="e0d567fc-9728-4425-a25b-0401edb8e66c">
-            <subnet>3563f66e-bc0a-4e9d-9a85-120f11a7318b</subnet>
-            <ip_address>192.168.1.67</ip_address>
-            <hw_address>ac:1f:6b:c1:0b:7a</hw_address>
-            <hostname>fw02-ipmi</hostname>
-            <description>FW02 IPMI</description>
-          </reservation>
-        </reservations>
+        <reservations/>
         <ha_peers>
           <peer uuid="b3697e23-d177-4c2a-8905-559c995b1087">
             <name>KeaDHCPHA</name>
