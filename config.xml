@@ -2811,6 +2811,49 @@ luZwE=&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="eb795433-f321-487e-bd0e-739730e0bb3b">
+      <associated-rule-id>nat_64d49be28a2128.33024759</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.50.98</address>
+        <port>8000</port>
+      </destination>
+      <descr>CCTV Camera</descr>
+      <category/>
+      <created>
+        <username>root@192.168.50.111</username>
+        <time>1691655138.5658</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="e8d5e2ee-989e-401f-862d-579bdcd7ccd8">
+      <associated-rule-id>nat_64d49bf2ebe824.04722642</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.50.98</address>
+        <port>8080</port>
+      </destination>
+      <descr>CCTV Camera</descr>
+      <category/>
+      <created>
+        <username>root@192.168.50.111</username>
+        <time>1691655154.9663</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
+    </rule>
     <rule uuid="aa116c0e-5161-43ea-ad5f-4db3cfd6faa2">
       <type>pass</type>
       <interface>lan</interface>
@@ -4026,6 +4069,33 @@ luZwE=&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="90af6412-ad65-4778-b0e9-74fa81867ba9">
+      <type>pass</type>
+      <interface>opt7</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow Kea DHCP synchronisation</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>opt7</network>
+      </source>
+      <destination>
+        <network>opt7ip</network>
+        <port>8765-8766</port>
+      </destination>
+      <updated>
+        <username>root@192.168.50.159</username>
+        <time>1735916028.2794</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.50.159</username>
+        <time>1735916028.2794</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="735a49e5-6682-4157-83a0-1fcade885a6b">
       <type>pass</type>
       <interface>opt7</interface>
@@ -4105,49 +4175,6 @@ luZwE=&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <associated-rule-id>nat_64d49be28a2128.33024759</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.50.98</address>
-        <port>8000</port>
-      </destination>
-      <descr>CCTV Camera</descr>
-      <category/>
-      <created>
-        <username>root@192.168.50.111</username>
-        <time>1691655138.5658</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_64d49bf2ebe824.04722642</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.50.98</address>
-        <port>8080</port>
-      </destination>
-      <descr>CCTV Camera</descr>
-      <category/>
-      <created>
-        <username>root@192.168.50.111</username>
-        <time>1691655154.9663</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -4204,9 +4231,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1735913677.3023</time>
+    <username>root@192.168.50.159</username>
+    <time>1735916028.3956</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
