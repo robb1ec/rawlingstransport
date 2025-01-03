@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <time>1735916028.3956</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1735916082.424</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5445,8 +5445,8 @@ VN</content>
       <dhcp4 version="1.0.2">
         <general>
           <enabled>0</enabled>
-          <interfaces/>
-          <valid_lifetime>4000</valid_lifetime>
+          <interfaces>lan,opt2,opt1,opt5,opt6,opt3</interfaces>
+          <valid_lifetime>3600</valid_lifetime>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
