@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/add_peer/ made changes</description>
-    <time>1735918551.209</time>
+    <description>/api/kea/dhcpv4/set_peer/b3697e23-d177-4c2a-8905-559c995b1087 made changes</description>
+    <time>1735918565.3754</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5586,7 +5586,7 @@ VN</content>
         <reservations/>
         <ha_peers>
           <peer uuid="b3697e23-d177-4c2a-8905-559c995b1087">
-            <name>KaDHCPHA</name>
+            <name>KeaDHCPHA</name>
             <role>primary</role>
             <url>https://192.168.1.254:9001/</url>
           </peer>
