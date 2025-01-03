@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set_peer/b3697e23-d177-4c2a-8905-559c995b1087 made changes</description>
-    <time>1735918627.9293</time>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1735918667.2839</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5451,7 +5451,7 @@ VN</content>
           <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
         <ha>
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <this_server_name/>
           <max_unacked_clients>2</max_unacked_clients>
         </ha>
@@ -5461,12 +5461,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.1.254</domain_name_servers>
               <domain_search>rawlings.local</domain_search>
-              <routers/>
+              <routers>192.168.1.254</routers>
               <static_routes/>
               <domain_name>corp.rawlingstransport.co.uk</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.1.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
@@ -5479,12 +5479,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.30.254</domain_name_servers>
               <domain_search>rawlings.local</domain_search>
-              <routers/>
+              <routers>192.168.30.254</routers>
               <static_routes/>
               <domain_name>corp.rawlingstransport.co.uk</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.30.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
@@ -5497,12 +5497,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.40.254</domain_name_servers>
               <domain_search/>
-              <routers/>
+              <routers>192.168.40.254</routers>
               <static_routes/>
               <domain_name>corp.rawlingstransport.com</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.40.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
@@ -5515,12 +5515,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.50.254</domain_name_servers>
               <domain_search/>
-              <routers/>
+              <routers>192.168.50.254</routers>
               <static_routes/>
               <domain_name>corp.rawlingstransport.com</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.50.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
@@ -5533,12 +5533,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.1.254</domain_name_servers>
               <domain_search/>
-              <routers/>
+              <routers>192.168.1.254</routers>
               <static_routes/>
               <domain_name>wifi.pickfords</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.1.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
@@ -5551,12 +5551,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.70.254</domain_name_servers>
               <domain_search/>
-              <routers/>
+              <routers>192.168.70.254</routers>
               <static_routes/>
               <domain_name>corp.hartleytankerservices.co.uk</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.70.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
@@ -5569,12 +5569,12 @@ VN</content>
             <next_server/>
             <option_data_autocollect>1</option_data_autocollect>
             <option_data>
-              <domain_name_servers/>
+              <domain_name_servers>192.168.60.254</domain_name_servers>
               <domain_search/>
-              <routers/>
+              <routers>192.168.60.254</routers>
               <static_routes/>
               <domain_name>wifi.pickfords</domain_name>
-              <ntp_servers/>
+              <ntp_servers>192.168.60.254</ntp_servers>
               <time_servers>192.168.1.2,192.168.1.6</time_servers>
               <tftp_server_name/>
               <boot_file_name/>
