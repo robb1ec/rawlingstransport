@@ -4232,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.159</username>
-    <description>/api/kea/dhcpv4/set_subnet/849373c7-9dad-47c0-afc1-09e4da3cfd0f made changes</description>
-    <time>1735921535.0447</time>
+    <description>/api/core/hasync/set made changes</description>
+    <time>1735922768.1638</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5968,7 +5968,7 @@ VN</content>
     <synchronizetoip>10.10.10.253</synchronizetoip>
     <username>root</username>
     <password>Rocogg133!</password>
-    <syncitems>aliases,authservers,captiveportal,certs,cron,widgets,dhcpd,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,suricata,ipsec,monit,nat,syslog,ntpd,ssh,openvpn,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui</syncitems>
+    <syncitems>aliases,authservers,captiveportal,certs,cron,dhcpd,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,suricata,ipsec,kea,monit,nat,syslog,ntpd,ssh,openvpn,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui</syncitems>
   </hasync>
   <crl/>
   <staticroutes version="1.0.0">
