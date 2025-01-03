@@ -4206,7 +4206,7 @@ luZwE=&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1735913219.7801</time>
+    <time>1735913677.3023</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -4833,7 +4833,7 @@ VN</content>
         <template/>
       </error_pages>
     </proxy>
-    <unboundplus version="1.0.9">
+    <unboundplus version="1.0.11">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -4885,6 +4885,7 @@ VN</content>
         <numqueriesperthread>4096</numqueriesperthread>
         <outgoingrange>8192</outgoingrange>
         <jostletimeout>200</jostletimeout>
+        <discardtimeout/>
         <cachemaxttl/>
         <cachemaxnegativettl/>
         <cacheminttl/>
@@ -4920,7 +4921,6 @@ VN</content>
       <dots/>
       <hosts/>
       <aliases/>
-      <domains/>
     </unboundplus>
     <zabbixproxy>
       <general version="2.0.2">
@@ -4949,7 +4949,7 @@ VN</content>
         <encryptionpsk/>
       </general>
     </zabbixproxy>
-    <IDS version="1.0.9">
+    <IDS version="1.1.0">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -4980,12 +4980,66 @@ VN</content>
         <syslog_eve>0</syslog_eve>
         <LogPayload>0</LogPayload>
         <verbosity/>
+        <eveLog>
+          <http>
+            <enable>0</enable>
+            <extended>0</extended>
+            <dumpAllHeaders/>
+          </http>
+          <tls>
+            <enable>0</enable>
+            <extended>0</extended>
+            <sessionResumption>0</sessionResumption>
+            <custom/>
+          </tls>
+        </eveLog>
       </general>
     </IDS>
-    <IPsec version="1.0.1">
+    <IPsec version="1.0.3">
       <general>
         <enabled/>
+        <preferred_oldsa>0</preferred_oldsa>
+        <disablevpnrules>0</disablevpnrules>
+        <passthrough_networks/>
       </general>
+      <charon>
+        <max_ikev1_exchanges/>
+        <threads>16</threads>
+        <ikesa_table_size>32</ikesa_table_size>
+        <ikesa_table_segments>4</ikesa_table_segments>
+        <init_limit_half_open>1000</init_limit_half_open>
+        <ignore_acquire_ts>1</ignore_acquire_ts>
+        <make_before_break/>
+        <retransmit_tries/>
+        <retransmit_timeout/>
+        <retransmit_base/>
+        <retransmit_jitter/>
+        <retransmit_limit/>
+        <syslog>
+          <daemon>
+            <ike_name>1</ike_name>
+            <log_level>0</log_level>
+            <app>1</app>
+            <asn>1</asn>
+            <cfg>1</cfg>
+            <chd>1</chd>
+            <dmn>1</dmn>
+            <enc>1</enc>
+            <esp>1</esp>
+            <ike>1</ike>
+            <imc>1</imc>
+            <imv>1</imv>
+            <job>1</job>
+            <knl>1</knl>
+            <lib>1</lib>
+            <mgr>1</mgr>
+            <net>1</net>
+            <pts>1</pts>
+            <tls>1</tls>
+            <tnc>1</tnc>
+          </daemon>
+        </syslog>
+      </charon>
       <keyPairs/>
       <preSharedKeys/>
     </IPsec>
@@ -5298,7 +5352,7 @@ VN</content>
       <VTIs/>
       <SPDs/>
     </Swanctl>
-    <OpenVPN version="1.0.0">
+    <OpenVPN version="1.0.1">
       <Overwrites/>
       <Instances/>
       <StaticKeys/>
@@ -5361,16 +5415,18 @@ VN</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.0">
+      <dhcp4 version="1.0.2">
         <general>
           <enabled>0</enabled>
           <interfaces/>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
+          <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
+          <max_unacked_clients>2</max_unacked_clients>
         </ha>
         <subnets/>
         <reservations/>
@@ -5405,6 +5461,21 @@ VN</content>
         <interface>wan,opt4</interface>
       </general>
     </vnstat>
+    <trust>
+      <general version="1.0.1">
+        <store_intermediate_certs>0</store_intermediate_certs>
+        <install_crls>0</install_crls>
+        <fetch_crls>0</fetch_crls>
+        <enable_legacy_sect>1</enable_legacy_sect>
+        <enable_config_constraints>0</enable_config_constraints>
+        <CipherString/>
+        <Ciphersuites/>
+        <SignatureAlgorithms/>
+        <groups/>
+        <MinProtocol/>
+        <MinProtocol_DTLS/>
+      </general>
+    </trust>
   </OPNsense>
   <ca uuid="e232e638-2045-4d68-9f71-33d1699ecac9">
     <refid>60228c112b2c9</refid>
@@ -5738,10 +5809,9 @@ VN</content>
       <descr>VIP PICKFORDS</descr>
     </vip>
   </virtualip>
-  <hasync version="1.0.0">
+  <hasync version="1.0.1">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
-    <pfsyncenabled>on</pfsyncenabled>
     <pfsyncinterface>opt7</pfsyncinterface>
     <pfsyncpeerip>10.10.10.253</pfsyncpeerip>
     <pfsyncversion>1301</pfsyncversion>
