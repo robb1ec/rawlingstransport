@@ -624,7 +624,6 @@ luZwE=&#xD;
   </interfaces>
   <dhcpd>
     <lan>
-      <enable>1</enable>
       <failover_peerip>192.168.1.253</failover_peerip>
       <defaultleasetime>3600</defaultleasetime>
       <maxleasetime>3660</maxleasetime>
@@ -866,7 +865,6 @@ luZwE=&#xD;
         <dnsserver>192.168.1.6</dnsserver>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </lan>
     <opt1>
       <enable>1</enable>
@@ -4234,8 +4232,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@10.10.1.6</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1736004582.2045</time>
+    <time>1736004626.0634</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
