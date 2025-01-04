@@ -4224,8 +4224,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@10.10.1.6</username>
-    <description>/api/kea/dhcpv4/set_subnet/aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f made changes</description>
-    <time>1736004778.8721</time>
+    <description>/api/kea/ctrl_agent/set made changes</description>
+    <time>1736004851.3164</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5431,7 +5431,7 @@ VN</content>
         <general>
           <enabled>1</enabled>
           <http_host>127.0.0.1</http_host>
-          <http_port>9001</http_port>
+          <http_port>8000</http_port>
         </general>
       </ctrl_agent>
       <dhcp4 version="1.0.2">
