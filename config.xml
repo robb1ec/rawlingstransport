@@ -1018,7 +1018,6 @@ luZwE=&#xD;
       </staticmap>
     </opt1>
     <opt2>
-      <enable>1</enable>
       <failover_peerip>192.168.30.253</failover_peerip>
       <failover_split>128</failover_split>
       <defaultleasetime>3600</defaultleasetime>
@@ -1037,8 +1036,6 @@ luZwE=&#xD;
       <dnsserver>192.168.1.2</dnsserver>
       <dnsserver>192.168.1.6</dnsserver>
       <ntpserver/>
-      <staticmap/>
-      <pool/>
     </opt2>
     <opt5>
       <enable>1</enable>
@@ -4232,7 +4229,7 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@10.10.1.6</username>
-    <time>1736004626.0634</time>
+    <time>1736004638.7905</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
