@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736004392.4327</time>
+    <time>1736004415.9323</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -6085,6 +6085,13 @@ VN</content>
             <hw_address>d0:21:f9:ec:63:04</hw_address>
             <hostname>wap01</hostname>
             <description>Pickfords Staff Room</description>
+          </reservation>
+          <reservation uuid="d534e687-9cbb-4bee-a54c-253b87566b07">
+            <subnet>849373c7-9dad-47c0-afc1-09e4da3cfd0f</subnet>
+            <ip_address>192.168.60.99</ip_address>
+            <hw_address>d0:21:f9:6b:9a:97</hw_address>
+            <hostname>unifi</hostname>
+            <description>Unifi Cloud-Key</description>
           </reservation>
         </reservations>
         <ha_peers>
