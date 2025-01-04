@@ -1597,7 +1597,6 @@ luZwE=&#xD;
       </staticmap>
     </opt5>
     <opt3>
-      <enable>1</enable>
       <failover_peerip>192.168.70.253</failover_peerip>
       <defaultleasetime>3600</defaultleasetime>
       <maxleasetime>3660</maxleasetime>
@@ -4225,7 +4224,7 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@10.10.1.6</username>
-    <time>1736004674.9048</time>
+    <time>1736004687.8301</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
