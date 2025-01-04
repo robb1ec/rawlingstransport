@@ -4234,8 +4234,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@10.10.1.6</username>
-    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736004176.4582</time>
+    <description>/api/kea/dhcpv4/set_reservation/a3406288-da9c-440a-9473-2a42dbd7361b made changes</description>
+    <time>1736004196.0782</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -6035,7 +6035,7 @@ VN</content>
             <ip_address>192.168.50.133</ip_address>
             <hw_address>80:be:af:e5:b6:5e</hw_address>
             <hostname>camera33</hostname>
-            <description>camera33</description>
+            <description>Along side PTrack trailers</description>
           </reservation>
           <reservation uuid="ac00b5f7-40b7-4c02-be5e-7e0b1cdc09b5">
             <subnet>aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f</subnet>
