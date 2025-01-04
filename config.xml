@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736004415.9323</time>
+    <time>1736004448.8742</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -6092,6 +6092,13 @@ VN</content>
             <hw_address>d0:21:f9:6b:9a:97</hw_address>
             <hostname>unifi</hostname>
             <description>Unifi Cloud-Key</description>
+          </reservation>
+          <reservation uuid="86dba0d9-685a-48da-902e-9c8869eb0750">
+            <subnet>08683f98-d2ad-4630-be8d-81100fa432df</subnet>
+            <ip_address>192.168.70.90</ip_address>
+            <hw_address>90:09:d0:3f:3c:c7</hw_address>
+            <hostname>hartnas01</hostname>
+            <description>Hartley NAS</description>
           </reservation>
         </reservations>
         <ha_peers>
