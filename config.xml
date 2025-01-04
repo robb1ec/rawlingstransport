@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736002347.9639</time>
+    <time>1736002381.1771</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5770,6 +5770,13 @@ VN</content>
             <hw_address>b4:fb:e4:20:6f:5e</hw_address>
             <hostname>wap01</hostname>
             <description>Unifi UAP-nanoHD</description>
+          </reservation>
+          <reservation uuid="135a4ccf-b335-4e02-8c6d-29bd2ac4575f">
+            <subnet>aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f</subnet>
+            <ip_address>192.168.50.95</ip_address>
+            <hw_address>f4:92:bf:73:32:51</hw_address>
+            <hostname>unifi</hostname>
+            <description>Unifi Cloudkey</description>
           </reservation>
         </reservations>
         <ha_peers>
