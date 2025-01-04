@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736001938.3699</time>
+    <time>1736001968.4015</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5693,6 +5693,13 @@ VN</content>
             <hw_address>ec:8e:b5:b9:8b:76</hw_address>
             <hostname>printer05</hostname>
             <description>printer05 (WiFi Inkjet Admin)</description>
+          </reservation>
+          <reservation uuid="7bc9c7a6-48ce-45f4-b1b5-b96611b7ddfb">
+            <subnet>a87add99-f640-4267-9f81-08ef204a441f</subnet>
+            <ip_address>192.168.40.93</ip_address>
+            <hw_address>18:e8:29:a6:c6:a3</hw_address>
+            <hostname>wap11</hostname>
+            <description>wap11 (Reception Front)</description>
           </reservation>
         </reservations>
         <ha_peers>
