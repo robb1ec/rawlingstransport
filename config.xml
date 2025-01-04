@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736004239.7352</time>
+    <time>1736004273.1822</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -6050,6 +6050,13 @@ VN</content>
             <hw_address>3c:1b:f8:81:33:45</hw_address>
             <hostname>speaker01</hostname>
             <description>HIK Loud Horn 01</description>
+          </reservation>
+          <reservation uuid="27119c1a-a29f-4176-afc9-cf58b90ac756">
+            <subnet>aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f</subnet>
+            <ip_address>192.168.50.140</ip_address>
+            <hw_address>f4:e2:c6:9c:da:d6</hw_address>
+            <hostname>CCTVNANOBEAM01</hostname>
+            <description>CCTVNANOBEAM01</description>
           </reservation>
         </reservations>
         <ha_peers>
