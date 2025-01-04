@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736004301.5088</time>
+    <time>1736004329.1044</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -6064,6 +6064,13 @@ VN</content>
             <hw_address>e4:38:83:c4:4d:89</hw_address>
             <hostname>CCTVNANOBEAM02</hostname>
             <description>CCTVNANOBEAM02</description>
+          </reservation>
+          <reservation uuid="d250e9a1-eecc-4b8d-8f23-598d7a54c720">
+            <subnet>aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f</subnet>
+            <ip_address>192.168.50.200</ip_address>
+            <hw_address>e4:e7:49:a6:a8:7a</hw_address>
+            <hostname>NPIA6A87A</hostname>
+            <description>Trust IT Printer</description>
           </reservation>
         </reservations>
         <ha_peers>
