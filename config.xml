@@ -4235,7 +4235,7 @@ luZwE=&#xD;
   <revision>
     <username>root@10.10.1.6</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736000927.4702</time>
+    <time>1736000956.0004</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5573,6 +5573,13 @@ VN</content>
             <ip_address>192.168.1.31</ip_address>
             <hw_address>00:25:90:bc:4a:d9</hw_address>
             <hostname>wbridge01</hostname>
+            <description>Ubnt Nano Beam</description>
+          </reservation>
+          <reservation uuid="6860fc14-08d5-4c7d-acd9-25b6cd864ca9">
+            <subnet>3563f66e-bc0a-4e9d-9a85-120f11a7318b</subnet>
+            <ip_address>192.168.1.32</ip_address>
+            <hw_address>00:25:90:b8:f8:25</hw_address>
+            <hostname>wbridge02</hostname>
             <description>Ubnt Nano Beam</description>
           </reservation>
         </reservations>
