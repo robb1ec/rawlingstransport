@@ -4224,8 +4224,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@10.10.1.6</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1736004710.7674</time>
+    <description>/api/kea/dhcpv4/set_subnet/aaac7cfc-5f21-4bc8-914f-cd7852c8cd2f made changes</description>
+    <time>1736004778.8721</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5517,8 +5517,8 @@ VN</content>
               <tftp_server_name/>
               <boot_file_name/>
             </option_data>
-            <pools>192.168.40.150-192.168.50.199</pools>
-            <description>VLAN40 TrustIT Lan</description>
+            <pools>192.168.50.150-192.168.50.199</pools>
+            <description>VLAN50 TrustIT Lan</description>
           </subnet4>
           <subnet4 uuid="08683f98-d2ad-4630-be8d-81100fa432df">
             <subnet>192.168.70.0/24</subnet>
