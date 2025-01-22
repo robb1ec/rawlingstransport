@@ -4223,9 +4223,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.1.27</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1736709836.7367</time>
+    <username>root@10.10.1.6</username>
+    <description>/api/openvpn/export/download/1/6022975c14208/ made changes</description>
+    <time>1737529363.8114</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -5067,7 +5067,7 @@ VN</content>
         <server uuid="67e719d0-2646-4325-a542-c505361326c7">
           <vpnid>1</vpnid>
           <hostname>vpn.rawlingstransport.co.uk</hostname>
-          <template>ViscosityVisz</template>
+          <template>PlainOpenVPN</template>
           <local_port>1194</local_port>
           <random_local_port>1</random_local_port>
           <validate_server_cn>1</validate_server_cn>
