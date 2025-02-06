@@ -1,0 +1,34 @@
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml" i:nil="true" />
+  <clientauth>
+    <aad i:nil="true" />
+    <cert>
+      <hash i:nil="true" />
+      <issuer>a12ca532eb32774a0e5033976ee3fd7f935a70bc</issuer>
+    </cert>
+    <type>cert</type>
+    <usernamepass i:nil="true" />
+  </clientauth>
+  <clientconfig i:nil="true" />
+  <name>vwanBusinessApps_vpn.azure.rawlingstransport.co.uk</name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname i:nil="true" />
+      <fqdn>wan.u8a9j5nbsg65t0ngi7g0bf0e1.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <Cert>
+      <hash>DF3C24F9BFD666761B268073FE06D1CC8D4F82A4</hash>
+      <issuer i:nil="true" />
+    </Cert>
+    <serversecret>372eedece64f3f948e1fda186777c69d91740e00272fbe8ba0c59286ca05926f573f8a4bbdbcc249f2d9279087a7b9ca07d600a6cdfffeb734ec255b1c67b25d51275fe554e9c8ba6be78188269f55a6d8c4b323114ebd0fe21340056cb97694c6708615ed95c146c2e2a0fcc21b01594a48a189b8845bbd780a736c24f1203db3b2fa13e613ae2e48ceb0c67aa83fcc644e3255882021e77a2cae13fdecfb4b426611cdeac9cf9f3f1973d6e4a99b720d2cd13f774e837a12b0ff6a7b23408cacbffef285cc65e29da8d72d891548c9212b058db825e391b9e1d9f571476f45ad6fc8f4eac7e31474ce68d86236ef4b5710887500e1c92b8aeec37629a846a0</serversecret>
+    <type>cert</type>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
