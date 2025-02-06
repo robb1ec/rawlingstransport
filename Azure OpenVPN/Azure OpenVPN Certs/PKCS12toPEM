@@ -1,0 +1,2 @@
+openssl pkcs12 -in "zana.carne.pkcs12.pfx" -nodes -out "zana.carne.pkcs12.pem"
+Enter Import Password: password
